@@ -1,0 +1,54 @@
+# -----------------------------
+# Virtual environments (DO NOT PUSH)
+# -----------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# -----------------------------
+# Secrets / local configs
+# -----------------------------
+.env
+.env.*
+*.key
+*.pem
+
+# -----------------------------
+# Python cache / build artifacts
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# -----------------------------
+# Jupyter / notebook artifacts
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -----------------------------
+# OS / editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# -----------------------------
+# Data / outputs (optional)
+# -----------------------------
+*.log
+*.tmp
+
+# If you generate plots locally and don't want them committed:
+# *.png
+# *.jpg
+# *.jpeg
+# *.svg
+# *.pdf
